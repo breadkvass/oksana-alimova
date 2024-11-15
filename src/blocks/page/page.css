@@ -1,0 +1,22 @@
+.page {
+    /* font-family: ; */
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
+a {
+    color: black;
+    font-style: none;
+}
+
+button {
+    border: none;
+    /* font-family: ; */
+    background-color: transparent;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
