@@ -1,0 +1,5 @@
+.education__arrow {
+    width: 25px;
+    aspect-ratio:  1 / 1;
+    object-fit: contain;
+}

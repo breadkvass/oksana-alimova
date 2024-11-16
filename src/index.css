@@ -28,3 +28,12 @@
 @import url(./blocks/help/__pill/help__pill.css);
 @import url(./blocks/help/__pill/help__pill_1.css);
 @import url(./blocks/help/__pill/help__pill_2.css);
+
+@import url(./blocks/education/education.css);
+@import url(./blocks/education/__desc/education__desc.css);
+@import url(./blocks/education/__img/education__img.css);
+@import url(./blocks/education/__point/education__point.css);
+@import url(./blocks/education/__points/education__points.css);
+@import url(./blocks/education/__arrow/education__arrow.css);
+@import url(./blocks/education/__text/education__text.css);
+@import url(./blocks/education/__title/education__title.css);

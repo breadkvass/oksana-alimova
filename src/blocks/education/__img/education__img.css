@@ -1,0 +1,6 @@
+.education__img {
+    max-width: 312px;
+    height: auto;
+    border-radius: 300px 300px 10px 10px;
+    border: 2px solid white;
+}

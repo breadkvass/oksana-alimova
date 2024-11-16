@@ -1,0 +1,9 @@
+.education {
+    background-color: var(--background-pink);
+    border-radius: 100px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 100px;
+}

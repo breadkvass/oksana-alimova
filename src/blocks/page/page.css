@@ -2,6 +2,10 @@
     --background-pink: #FFF3F5;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .page {
     font-family: 'Inter', sans-serif;
     margin: 0 auto;
