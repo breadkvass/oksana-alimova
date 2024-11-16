@@ -25,3 +25,6 @@
 @import url(./blocks/help/__text/help__text.css);
 @import url(./blocks/help/__title/help__title.css);
 @import url(./blocks/help/__img/help__img.css);
+@import url(./blocks/help/__pill/help__pill.css);
+@import url(./blocks/help/__pill/help__pill_1.css);
+@import url(./blocks/help/__pill/help__pill_2.css);
