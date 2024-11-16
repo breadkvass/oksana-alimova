@@ -1,0 +1,9 @@
+.main__content {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 50px;
+    top: -60px;
+    left: 50px;
+    font-weight: 300;
+}

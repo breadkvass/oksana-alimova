@@ -1,3 +1,15 @@
 @import url(./vendor/fonts.css);
 
 @import url(./blocks/page/page.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__nav-link/header__nav-link.css);
+@import url(./blocks/header/__nav/header__nav.css);
+
+@import url(./blocks/main/main.css);
+@import url(./blocks/main/__content/main__content.css);
+@import url(./blocks/main/__desc/main__desc.css);
+@import url(./blocks/main/__img/main__img.css);
+@import url(./blocks/main/__name/main__name.css);
+@import url(./blocks/main/__quote/main__quote.css);
+@import url(./blocks/main/__text/main__text.css);

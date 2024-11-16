@@ -10,14 +10,33 @@
   <meta name="copyright" content="Oksana Alimova" />
   <meta http-equiv="pragma" content="no-cache" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="stylesheet" type="text/css" src="index.css">
-  <link rel="stylesheet" type="text/html" href="../node_modules/@glidejs/glide/dist/css/glide.core.min.css">
-  <link rel="stylesheet" type="text/html" href="../node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+  <link rel="stylesheet" type="text/css" src="./index.css">
   <title>Оксана Алимова Гинеколог</title>
 </head>
-<body class="page">
-    <header></header>
-    <main></main>
+<body class="page" id="root">
+    <header class="header">
+      <nav>
+        <ul class="header__nav">
+          <li class="header__nav-link"><a href="#education">Образование</a></li>
+          <li class="header__nav-link"><a href="#online">Онлайн-консультация</a></li>
+          <li class="header__nav-link"><a href="#price">Прайс</a></li>
+          <li class="header__nav-link"><a href="#usefull">Полезные ссылки</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main">
+        <div class="main__content">
+          <img class="main__img" src="<%=require('./vendor/assets/images/main.jpg')%>" alt="Оксана Алимова, фото"/>
+          <div class="main__desc">
+            <p class="main__quote">Жду вас на бережный приём<br />в клинике Фомина в Москве,<br />женской консультации в Реутове,<br />
+              или успокою и отвечу на вопросы в онлайн-формате</p>
+            <p class="main__name">Оксана Алимова</p>
+            <p class="main__text">— ваш семейный гинеколог уже более 20 лет</p>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
 
 </body>

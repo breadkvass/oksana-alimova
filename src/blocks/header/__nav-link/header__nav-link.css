@@ -1,0 +1,8 @@
+.header__nav-link {
+    padding: 4px 8px;
+}
+
+.header__nav-link:hover {
+    background-color: var(--background-pink);
+    border-radius: 16px;
+}
