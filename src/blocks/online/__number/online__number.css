@@ -1,0 +1,11 @@
+.online__number {
+    background-color: var(--background-pink);
+    border-radius: 100px;
+    min-width: 24px;
+    height: 40px;
+    padding: 31px 39px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #3B3B3B;
+    text-align: center;
+}

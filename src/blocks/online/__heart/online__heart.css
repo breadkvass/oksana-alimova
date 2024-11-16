@@ -1,0 +1,8 @@
+.online__heart {
+    position: absolute;
+    z-index: -1;
+    top: 308px;
+    left: 330px;
+    width: 520px;
+    height: 420px;
+}
