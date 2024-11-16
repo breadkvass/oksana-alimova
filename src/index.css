@@ -13,3 +13,15 @@
 @import url(./blocks/main/__name/main__name.css);
 @import url(./blocks/main/__quote/main__quote.css);
 @import url(./blocks/main/__text/main__text.css);
+
+@import url(./blocks/help/help.css);
+@import url(./blocks/help/__graph/help__graph.css);
+@import url(./blocks/help/__point/help__point.css);
+@import url(./blocks/help/__point/help__point_1.css);
+@import url(./blocks/help/__point/help__point_2.css);
+@import url(./blocks/help/__point/help__point_3.css);
+@import url(./blocks/help/__point/help__point_4.css);
+@import url(./blocks/help/__point/help__point_5.css);
+@import url(./blocks/help/__text/help__text.css);
+@import url(./blocks/help/__title/help__title.css);
+@import url(./blocks/help/__img/help__img.css);

@@ -1,0 +1,8 @@
+.help__img {
+    border: 2px solid #4F67B1;
+    border-radius: 177px;
+    width: 330px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin: 50px auto 130px auto;
+}
