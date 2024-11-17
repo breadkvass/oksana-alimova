@@ -9,8 +9,12 @@ html {
 .page {
     font-family: 'Inter', sans-serif;
     margin: 0 auto;
-    max-width: 1180px;
     font-weight: 400;
+}
+
+.main {
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
 a {
