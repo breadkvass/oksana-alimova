@@ -51,6 +51,7 @@
 @import url(./blocks/questions/__important/questions__important.css);
 @import url(./blocks/questions/__text/questions__text.css);
 @import url(./blocks/questions/__title/questions__title.css);
+@import url(./blocks/questions/__pills/questions__pills.css);
 
 @import url(./blocks/price/price.css);
 @import url(./blocks/price/__block/price__block.css);
@@ -62,3 +63,10 @@
 @import url(./blocks/price/__text/price__text.css);
 @import url(./blocks/price/__title/price__title.css);
 @import url(./blocks/price/__value/price__value.css);
+
+@import url(./blocks/links/links.css);
+@import url(./blocks/links/__cards/links__cards.css);
+@import url(./blocks/links/__link-card/links__link-card.css);
+@import url(./blocks/links/__name/links__name.css);
+@import url(./blocks/links/__title/links__title.css);
+@import url(./blocks/links/__img/links__img.css);

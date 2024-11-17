@@ -1,0 +1,13 @@
+.links__link-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 20px;
+    justify-content: space-between;
+    background-color: var(--background-pink);
+    border: 1px solid #4F67B1;
+    border-radius: 20px;
+    width: 216px;
+    height: 244px;
+    gap: 8px;
+}

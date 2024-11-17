@@ -1,0 +1,6 @@
+.questions__pills {
+    position: absolute;
+    bottom: -300px;
+    right: 50px;
+    opacity: 10%;
+}

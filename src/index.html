@@ -20,7 +20,7 @@
           <li class="header__nav-link"><a href="#education">Образование</a></li>
           <li class="header__nav-link"><a href="#online">Онлайн-консультация</a></li>
           <li class="header__nav-link"><a href="#price">Прайс</a></li>
-          <li class="header__nav-link"><a href="#usefull">Полезные ссылки</a></li>
+          <li class="header__nav-link"><a href="#links">Полезные ссылки</a></li>
         </ul>
       </nav>
     </header>
@@ -118,6 +118,8 @@
           <p class="questions__text">Также&nbsp;можно получить второе мнение, если&nbsp;вы сомневаетесь в&nbsp;назначениях врача.</p>
           <p class="questions__important">Напомню, что&nbsp;онлайн консультация —&nbsp;это&nbsp;информационная, а&nbsp;не&nbsp;медицинская услуга.</p>
         </div>
+        <img class="questions__pills" src="<%=require('./vendor/assets/images/two-pills.png')%>" />
+        
       </section>
       <section class="price" id="price">
         <h2 class="price__title">Прайс на онлайн консультацию:</h2>
@@ -189,8 +191,55 @@
               <p class="price__value">6000</p>
           </div>
         </div>
-        
+
         <button class="price__book-button">Записаться на онлайн консультацию</button>
+      </section>
+      <section class="links" id="links">
+        <h2 class="links__title">Полезные ссылки</h2>
+        <ul class="links__cards">
+          <li>
+            <a class="links__link-card" href="https://t.me/Doc_alimova">
+              <img class="links__img" src="<%=require('./vendor/assets/icons/consultation.png')%>" alt="Иконка" />
+              <p class="links__name">Записаться на&nbsp;консультацию</p>
+            </a>
+          </li>
+          <li>
+            <a class="links__link-card" href="https://fomin-clinic.ru/doctors/alimova-oksana-petrovna/">
+              <img class="links__img" src="<%=require('./vendor/assets/icons/fomina.png')%>" alt="Иконка" />
+              <p class="links__name">Клиника Фомина</p>
+            </a>
+          </li>
+          <li>
+            <a class="links__link-card" href="https://t.me/Doc_alimova">
+              <img class="links__img" src="<%=require('./vendor/assets/icons/plus-icon.png')%>" alt="Иконка" />
+              <p class="links__name">Развернутый ответ на&nbsp;1&nbsp;вопрос (500&nbsp;руб)</p>
+            </a>
+          </li>
+          <li>
+            <a class="links__link-card" href="https://docs.google.com/forms/u/0/d/1Isnx0Xik2NfZEKk6KYO7ZingwGQECUDaaOG9CGs_eq0/viewform?edit_requested=true">
+              <img class="links__img" src="<%=require('./vendor/assets/icons/anketa.png')%>" alt="Иконка" />
+              <p class="links__name">Анкета перед&nbsp;консультацией</p>
+            </a>
+          </li>
+          <li>
+            <a class="links__link-card" href="https://hellodoc.app/s/b2zqr/">
+              <img class="links__img" src="<%=require('./vendor/assets/icons/analysis.png')%>" alt="Иконка" />
+              <p class="links__name">Анализы со&nbsp;скидкой</p>
+            </a>
+          </li>
+          <li>
+            <a class="links__link-card" href="https://vk.com/market-211168636">
+              <img class="links__img" src="<%=require('./vendor/assets/icons/tablet.png')%>" alt="Иконка" />
+              <p class="links__name">Мои гайды (vk)</p>
+            </a>
+          </li>
+          <li>
+            <a class="links__link-card" href="https://checklists.expert/checklist/83565-planirovanie-beremennosti-analizy/iframe">
+              <img class="links__img" src="<%=require('./vendor/assets/icons/dna.png')%>" alt="Иконка" />
+              <p class="links__name">Подготовка к&nbsp;беременности (чеклист)</p>
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
     <footer></footer>

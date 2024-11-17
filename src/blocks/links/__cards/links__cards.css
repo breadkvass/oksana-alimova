@@ -1,0 +1,7 @@
+.links__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: center;
+}
