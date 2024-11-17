@@ -45,3 +45,9 @@
 @import url(./blocks/online/__text/online__text.css);
 @import url(./blocks/online/__title/online__title.css);
 @import url(./blocks/online/__heart/online__heart.css);
+
+@import url(./blocks/questions/questions.css);
+@import url(./blocks/questions/__desc/questions__desc.css);
+@import url(./blocks/questions/__important/questions__important.css);
+@import url(./blocks/questions/__text/questions__text.css);
+@import url(./blocks/questions/__title/questions__title.css);

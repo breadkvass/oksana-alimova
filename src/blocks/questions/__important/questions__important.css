@@ -1,0 +1,8 @@
+.questions__important {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #4F67B1;
+}
