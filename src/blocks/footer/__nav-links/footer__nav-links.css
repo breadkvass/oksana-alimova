@@ -1,0 +1,9 @@
+.footer__nav-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 175px;
+    row-gap: 10px;
+    height: 150px;
+    z-index: 2;
+}
