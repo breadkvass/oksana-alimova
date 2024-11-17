@@ -1,0 +1,9 @@
+.price__book-button {
+    border-radius: 20px;
+    background-color: #4F67B1;
+    color: white;
+    padding: 20px 40px;
+    width: max-content;
+    align-self: center;
+    margin-top: 50px;
+}

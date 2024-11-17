@@ -1,0 +1,9 @@
+.price {
+    margin-top: 100px;
+    padding: 0 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}

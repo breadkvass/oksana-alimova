@@ -1,0 +1,7 @@
+.price__point {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    border-bottom: .5px solid #4F67B1;
+}
