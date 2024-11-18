@@ -21,12 +21,14 @@ a {
     color: black;
     font-style: none;
     text-decoration: none;
+    cursor: pointer;
 }
 
 button {
     font-family: 'Inter', sans-serif;
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
 ul {
