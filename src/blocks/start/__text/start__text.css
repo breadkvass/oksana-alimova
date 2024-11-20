@@ -5,3 +5,10 @@
     text-align: right;
     color: #3B3B3B;
 }
+
+@media screen and (max-width: 1279px) {
+    .start__text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

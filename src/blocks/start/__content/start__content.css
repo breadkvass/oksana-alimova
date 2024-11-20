@@ -7,3 +7,14 @@
     left: 50px;
     font-weight: 300;
 }
+
+
+@media screen and (max-width: 1279px) {
+    .start__content {
+        gap: 18px;
+        top: -40px;
+        left: 26px;
+        width: calc(100% - 48px);
+    }
+}
+

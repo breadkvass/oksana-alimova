@@ -5,3 +5,12 @@
     position: relative;
     height: 330px;
 }
+
+@media screen and (max-width: 1279px) {
+    .start {
+        margin: 100px auto 0 auto;
+        height: 200px;
+        width: calc(100vw - 40px);
+        border-radius: 60px;
+    }
+}
