@@ -7,3 +7,11 @@
     align-items: center;
     gap: 50px;
 }
+
+@media screen and (max-width: 1279px) {
+    .price {
+        margin: 80px 40px 0 40px;
+        gap: 40px;
+        padding: 0 20px;
+    }
+}

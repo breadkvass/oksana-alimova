@@ -5,3 +5,9 @@
     align-items: end;
     border-bottom: .5px solid #4F67B1;
 }
+
+@media screen and (max-width: 1279px) {
+    .price__point {
+        gap: 10px;
+    }
+}

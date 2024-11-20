@@ -5,6 +5,7 @@
     padding: 20px 40px;
     width: max-content;
     font-size: 20px;
+    line-height: 24px;
 }
 
 .price__book-button:hover {
@@ -13,4 +14,12 @@
 
 .price__book-button:active {
     background-color: #2245B0;
+}
+
+@media screen and (max-width: 1279px) {
+    .price__book-button {
+        gap: 10px;
+        font-size: 16px;
+        line-height: 22px;
+    }
 }

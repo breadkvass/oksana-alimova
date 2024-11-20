@@ -4,3 +4,9 @@
     gap: 50px;
     width: 100%;
 }
+
+@media screen and (max-width: 1279px) {
+    .price__content {
+        gap: 40px;
+    }
+}
