@@ -11,3 +11,16 @@
     height: 244px;
     gap: 8px;
 }
+
+.links__link-card:hover {
+    border-width: 3px;
+    width: 212px;
+    height: 240px;
+}
+
+.links__link-card:active {
+    border-width: 1px;
+    width: 216px;
+    height: 244px;
+    background-color: white;
+}

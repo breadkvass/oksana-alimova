@@ -6,3 +6,11 @@
     width: max-content;
     font-size: 20px;
 }
+
+.price__book-button:hover {
+    background-color: #6A86DC;
+}
+
+.price__book-button:active {
+    background-color: #2245B0;
+}
