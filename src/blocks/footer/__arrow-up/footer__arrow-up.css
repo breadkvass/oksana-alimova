@@ -9,5 +9,7 @@
 @media screen and (max-width: 1279px) {
     .footer__arrow-up {
         width: 50px;
+        right: 40px;
+        bottom: 40px;
     }
 }
