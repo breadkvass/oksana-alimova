@@ -10,7 +10,7 @@
     .start {
         margin: 100px auto 0 auto;
         height: 200px;
-        width: calc(100vw - 40px);
+        width: 100%;
         border-radius: 60px;
     }
 }
