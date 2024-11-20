@@ -4,3 +4,11 @@
     width: 330px;
     height: auto;
 }
+
+@media screen and (max-width: 1279px) {
+    .help__pill_2 {
+        width: 200px;
+        bottom: -30px;
+        right: 16px;
+    }
+}
