@@ -48,6 +48,6 @@ h2 {
 
 @media screen and (max-width: 1279px) {
     .main {
-        max-width: 1240px;
+        width: calc(100% - 40px);
     }
 }
