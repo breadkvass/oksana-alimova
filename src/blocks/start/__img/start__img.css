@@ -5,6 +5,7 @@
     border: 3px solid #6A86DC;
     object-fit: cover;
     object-position: 0 -10px;
+    filter: contrast(90%);
 }
 
 @media screen and (max-width: 1279px) {
