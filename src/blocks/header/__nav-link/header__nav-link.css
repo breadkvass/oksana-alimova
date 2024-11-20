@@ -6,3 +6,8 @@
     background-color: var(--background-pink);
     border-radius: 16px;
 }
+
+.header__nav-link:active {
+    background-color: var(--background-pink);
+    border-radius: 16px;
+}
