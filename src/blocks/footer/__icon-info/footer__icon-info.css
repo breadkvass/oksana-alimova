@@ -9,3 +9,11 @@
     color: #3B3B3B;
     opacity: 75%;
 }
+
+@media screen and (max-width: 1279px) {
+    .footer__icon-info {
+        font-size: 12px;
+        bottom: -44px;
+        right: -130px;
+    }
+}

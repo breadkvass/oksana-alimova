@@ -7,3 +7,11 @@
     width: 200px;
     height: auto;
 }
+
+@media screen and (max-width: 1279px) {
+    .footer__background {
+        width: 120px;
+        right: -160px;
+        top: -20px;
+    }
+}

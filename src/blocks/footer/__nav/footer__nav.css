@@ -4,3 +4,9 @@
     position: relative;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1279px) {
+    .footer__nav {
+        height: 140px;
+    }
+}
