@@ -1,6 +1,16 @@
 .education__title {
     font-size: 36px;
-    font-weight: 600;
     line-height: 44px;
+    font-weight: 600;
     text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+    .education__title {
+        background-color: var(--background-pink);
+        border-radius: 60px;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+    }
 }

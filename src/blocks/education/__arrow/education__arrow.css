@@ -3,3 +3,9 @@
     aspect-ratio:  1 / 1;
     object-fit: contain;
 }
+
+@media screen and (max-width: 1024px) {
+    .education__arrow {
+        width: 12px;
+    }
+}

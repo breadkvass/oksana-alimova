@@ -7,3 +7,13 @@
     gap: 50px;
     margin-top: 100px;
 }
+
+@media screen and (max-width: 1024px) {
+    .education {
+        margin-top: 80px;
+        flex-direction: column-reverse;
+        background-color: transparent;
+        border-radius: 0;
+        padding: 0;
+    }
+}

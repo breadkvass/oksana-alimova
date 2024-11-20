@@ -1,6 +1,19 @@
 .education__img {
-    max-width: 312px;
-    height: auto;
+    width: 312px;
+    height: 450px;
     border-radius: 300px 300px 10px 10px;
     border: 2px solid white;
+    filter: brightness(120%);
+}
+
+@media screen and (max-width: 1024px) {
+    .education__img {
+        border-radius: 100px 100px 10px 10px;
+        width: calc(100% - 400px);
+        max-width: 720px;
+        height: 320px;
+        object-fit: cover;
+        margin: 0 auto;
+        object-position: 0 60%;
+    }
 }
