@@ -1,6 +1,6 @@
 .price__content {
     display: flex;
     flex-direction: column;
-    gap: 36px;
+    gap: 50px;
     width: 100%;
 }
