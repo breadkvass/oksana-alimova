@@ -45,3 +45,9 @@ h2 {
     margin: 0;
     color: #2245B0;
 }
+
+@media screen and (max-width: 1279px) {
+    .main {
+        max-width: 1240px;
+    }
+}
