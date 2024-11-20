@@ -4,5 +4,13 @@
     top: 308px;
     left: 330px;
     width: 520px;
-    height: 420px;
+    height: auto;
+}
+
+@media screen and (max-width: 1279px) {
+    .online__heart {
+        top: 190px;
+        left: 440px;
+        width: 290px;
+    }
 }

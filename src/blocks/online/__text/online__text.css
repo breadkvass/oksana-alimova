@@ -1,7 +1,16 @@
 .online__text {
     font-size: 20px;
-    font-weight: 400;
     line-height: 28px;
+    font-weight: 400;
     letter-spacing: 0.02em;
     color: #3B3B3B;
+    text-align: left;
+}
+
+@media screen and (max-width: 1279px) {
+    .online__text {
+        font-size: 16px;
+        line-height: 22px;
+        text-align: left;
+    }
 }
