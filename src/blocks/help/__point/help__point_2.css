@@ -2,3 +2,10 @@
     bottom: 130px;
     left: 120px;
 }
+
+@media screen and (max-width: 1279px) {
+    .help__point_2 {
+        left: 70px;
+        bottom: 80px;
+    }
+}

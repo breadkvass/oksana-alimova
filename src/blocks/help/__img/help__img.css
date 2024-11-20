@@ -6,3 +6,10 @@
     object-fit: cover;
     margin: 50px auto 130px auto;
 }
+
+@media screen and (max-width: 1279px) {
+    .help__img {
+        width: 196px;
+        margin: 30px auto 80px auto;
+    }
+}
