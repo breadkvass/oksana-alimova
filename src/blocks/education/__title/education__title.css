@@ -7,8 +7,6 @@
 
 @media screen and (max-width: 1024px) {
     .education__title {
-        background-color: var(--background-pink);
-        border-radius: 60px;
         font-size: 24px;
         line-height: 30px;
         text-align: center;
