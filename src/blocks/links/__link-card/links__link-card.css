@@ -7,20 +7,18 @@
     background-color: var(--background-pink);
     border: 1px solid #4F67B1;
     border-radius: 20px;
-    width: 216px;
+    width: 214px;
     height: 244px;
+    margin: 2px;
     gap: 8px;
 }
 
 .links__link-card:hover {
     border-width: 3px;
-    width: 212px;
-    height: 240px;
+    margin: 0;
 }
 
 .links__link-card:active {
     border-width: 1px;
-    width: 216px;
-    height: 244px;
     background-color: white;
 }
