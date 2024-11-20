@@ -4,3 +4,11 @@
     right: 50px;
     opacity: 10%;
 }
+
+@media screen and (max-width: 1279px) {
+    .questions__pills {
+        bottom: -220px;
+        right: 50px;
+        width: 190px;
+    }
+}
