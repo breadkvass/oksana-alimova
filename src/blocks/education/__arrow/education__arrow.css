@@ -9,3 +9,9 @@
         width: 12px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .education__arrow {
+        width: 10px;
+    }
+}

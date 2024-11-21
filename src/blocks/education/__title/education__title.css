@@ -12,3 +12,10 @@
         text-align: center;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .education__title {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

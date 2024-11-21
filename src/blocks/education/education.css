@@ -17,3 +17,10 @@
         padding: 0;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .education {
+        margin-top: 40px;
+        gap: 24px;
+    }
+}

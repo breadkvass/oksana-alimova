@@ -3,3 +3,9 @@
     flex-direction: column;
     gap: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .education__points {
+        gap: 15px;
+    }
+}

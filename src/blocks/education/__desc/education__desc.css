@@ -12,3 +12,10 @@
         gap: 20px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .education__desc {
+        border-radius: 40px;
+        padding: 20px 10px;
+    }
+}
