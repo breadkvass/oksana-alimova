@@ -15,3 +15,12 @@
         margin: 0 40px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .header__nav-links {
+        min-width: 292px;
+        justify-content: space-between;
+        margin: 0;
+        gap: 10px;
+    }
+}

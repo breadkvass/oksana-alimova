@@ -20,3 +20,18 @@
         line-height: 22px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .header__nav-link {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 2px 4px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header__nav-link {
+        font-size: 8px;
+        line-height: 12px;
+    }
+}
