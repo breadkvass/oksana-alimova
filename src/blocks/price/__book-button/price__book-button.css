@@ -18,8 +18,16 @@
 
 @media screen and (max-width: 1279px) {
     .price__book-button {
-        gap: 10px;
         font-size: 16px;
         line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .price__book-button {
+        font-size: 8px;
+        line-height: 12px;
+        padding: 12px 20px;
+        border-radius: 15px;
     }
 }
