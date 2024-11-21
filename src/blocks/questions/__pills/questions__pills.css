@@ -12,3 +12,11 @@
         width: 190px;
     }
 }
+
+@media screen and (max-width: 1279px) {
+    .questions__pills {
+        bottom: -180px;
+        right: 20px;
+        width: 120px;
+    }
+}
