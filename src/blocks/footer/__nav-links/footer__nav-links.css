@@ -14,3 +14,9 @@
         height: 140px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .footer__nav-links {
+        column-gap: 40px;
+    }
+}

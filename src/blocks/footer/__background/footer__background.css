@@ -15,3 +15,11 @@
         top: -20px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .footer__background {
+        width: 60px;
+        right: -10px;
+        top: 60px;
+    }
+}
