@@ -14,3 +14,10 @@
         text-align: left;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .online__text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

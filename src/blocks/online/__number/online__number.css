@@ -17,3 +17,13 @@
         line-height: 29px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .online__number {
+        font-size: 10px;
+        padding: 10px 12px 10px 12px;
+        line-height: 12px;
+        min-width: 7px;
+        height: 11px;
+    }
+}

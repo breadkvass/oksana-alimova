@@ -14,3 +14,11 @@
         gap: 40px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .online {
+        margin-top: 40px;
+        padding: 0 10px;
+        gap: 25px;
+    }
+}
