@@ -10,3 +10,10 @@
         line-height: 30px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .links__title {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

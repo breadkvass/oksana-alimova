@@ -11,3 +11,10 @@
         gap: 40px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .links {
+        margin-top: 40px;
+        gap: 20px;
+    }
+}
