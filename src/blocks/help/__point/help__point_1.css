@@ -8,3 +8,16 @@
         top: 24px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .help__point_1 {
+        left: -80px;
+        top: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .help__point_1 {
+        left: 0px;
+    }
+}

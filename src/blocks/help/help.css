@@ -5,3 +5,17 @@
     margin-top: 120px;
     position: relative;
 }
+
+@media screen and (max-width: 1279px) {
+    .help {
+        margin-top: 80px;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .help {
+        margin-top: 40px;
+        gap: 20px;
+    }
+}

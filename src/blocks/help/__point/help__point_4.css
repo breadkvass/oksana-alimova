@@ -8,3 +8,17 @@
         bottom: 120px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .help__point_4 {
+        left: 230px;
+        bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .help__point_4 {
+        left: 110px;
+        bottom: 180px;
+    }
+}

@@ -11,3 +11,11 @@
         line-height: 30px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .help__title {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 0 auto;
+    }
+}

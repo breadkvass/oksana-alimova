@@ -9,3 +9,17 @@
         bottom: 80px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .help__point_2 {
+        left: -70px;
+        bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .help__point_2 {
+        left: 170px;
+        bottom: 120px;
+    }
+}
