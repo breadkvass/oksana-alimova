@@ -13,3 +13,9 @@
         width: 220px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .start__img {
+        width: 120px;
+    }
+}

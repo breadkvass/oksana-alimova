@@ -4,3 +4,18 @@
     align-self: flex-end;
     width: 680px;
 }
+
+@media screen and (max-width: 1279px) {
+    .start__desc {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .start__desc {
+        width: 100%;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
+

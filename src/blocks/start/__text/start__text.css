@@ -12,3 +12,11 @@
         line-height: 22px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .start__text {
+        font-size: 10px;
+        line-height: 12px;
+        align-self: flex-end;
+    }
+}

@@ -14,3 +14,13 @@
         border-radius: 60px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .start {
+        border-radius: 40px;
+        margin: 20px auto 0 auto;
+        height: max-content;
+        padding: 10px 20px;
+        width: calc(100% - 40px);
+    }
+}

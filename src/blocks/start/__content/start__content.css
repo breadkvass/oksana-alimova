@@ -8,7 +8,6 @@
     font-weight: 300;
 }
 
-
 @media screen and (max-width: 1279px) {
     .start__content {
         gap: 18px;
@@ -18,3 +17,12 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .start__content {
+        position: static;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+        width: 100%;
+    }
+}

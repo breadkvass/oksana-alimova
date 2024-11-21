@@ -13,3 +13,10 @@
         line-height: 20px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .start__quote {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
