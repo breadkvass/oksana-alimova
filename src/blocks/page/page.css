@@ -57,3 +57,10 @@ h2 {
         width: calc(100% - 20px);
     }
 }
+
+.block {
+    background-color: transparent;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform 0.5s, opacity 0.5s;
+}

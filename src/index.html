@@ -32,7 +32,7 @@
           <div class="start__desc">
             <p class="start__quote">Жду вас на бережный приём<br />в клинике Фомина в Москве,<br />женской консультации в Реутове,<br />
               или успокою и отвечу на вопросы в онлайн-формате</p>
-            <p class="start__name">Оксана Алимова</p>
+            <span class="start__name">Оксана Алимова</span>
             <p class="start__text">— ваш семейный гинеколог уже более 20 лет</p>
           </div>
         </div>
@@ -40,7 +40,7 @@
       <sectin class="help">
         <h2 class="help__title">Чем я могу вам помочь?</h2>
         <div class="help__graph">
-          <img class="help__img" src="<%=require('./vendor/assets/images/help.jpg')%>" alt="Медицинский макет"/>
+          <img class="help__img" src="<%=require('./vendor/assets/images/help.jpg')%>" alt="Медицинский макет" loading="lazy"/>
           <p class="help__point help__point_1">Отвечу на все возникшие вопросы</p>
           <p class="help__point help__point_2">Объясню, как бережно<br />пережить менопаузу</p>
           <p class="help__point help__point_3">Проведу гинекологический скрининг</p>
@@ -48,10 +48,10 @@
           <p class="help__point help__point_5">Подберу контрацепцию<br />в любой жизненной ситуации</p>
         </div>
         <p class="help__text">Без ненужного обследования — всё по существу и обоснованно</p>
-        <img class="help__pill help__pill_1" src="<%=require('./vendor/assets/images/pill-1.png')%>"/>
-        <img class="help__pill help__pill_2" src="<%=require('./vendor/assets/images/pill-2.png')%>"/>
+        <img class="help__pill help__pill_1" src="<%=require('./vendor/assets/images/pill-1.png')%>" loading="lazy"/>
+        <img class="help__pill help__pill_2" src="<%=require('./vendor/assets/images/pill-2.png')%>" loading="lazy"/>
       </sectin>
-      <section class="education" id="education">
+      <section class="education block" id="education">
         <div class="education__desc">
           <h2 class="education__title">Моё образование и трудовой путь</h2>
           <div class="education__points">
@@ -75,43 +75,43 @@
             </div>
           </div>
         </div>
-        <img class="education__img" src="<%=require('./vendor/assets/images/education.jpg')%>" alt="Фото Оксаны Алимовой"/>
+        <img class="education__img" src="<%=require('./vendor/assets/images/education.jpg')%>" alt="Фото Оксаны Алимовой" loading="lazy" />
       </section>
-      <section class="online" id="online">
+      <section class="online block" id="online">
         <h2 class="online__title">Как проходит онлайн-консультация?</h2>
         <div class="online__content">
-          <div class="online__point">
+          <div class="online__point block">
             <p class="online__number">1</p>
             <p class="online__text">Предварительно прошу вас заполнить анкету и&nbsp;прислать результаты обследования. Внимательно все 
               изучаю накануне консультации, фиксирую себе пометки и&nbsp;дополнительные вопросы, которые&nbsp;буду вам задавать.</p>
           </div>
-          <div class="online__point">
+          <div class="online__point block">
             <p class="online__number">2</p>
             <p class="online__text">Далее мы с вами связываемся любым из&nbsp;удобных вам способов: Текстовая переписка, 
               голосовые сообщения, аудиозвонок, видеозвонок.</p>
           </div>
-          <div class="online__point">
+          <div class="online__point block">
             <p class="online__number">3</p>
             <p class="online__text">Я прошу вас ещё раз подробно рассказать о&nbsp;той проблеме,&nbsp;что привела вас ко&nbsp;мне.
               Задаю наводящие вопросы. Мы с&nbsp;вами вместе все ещё раз проговариваем. Это&nbsp;нужно,
               чтобы&nbsp;убедиться в&nbsp;том, что я все правильно поняла.</p>
           </div>
-          <div class="online__point">
+          <div class="online__point" block>
             <p class="online__number">4</p>
             <p class="online__text">Сопоставив все факты, я&nbsp;озвучиваю вам предварительные рабочие версии диагноза. 
               Объясняю все свои назначения. Если&nbsp;что‑то&nbsp;непонятно —&nbsp;повторяю столько раз, сколько необходимо 
               и&nbsp;объясняю ещё более подробно.</p>
           </div>
           <div class="online__point">
-            <p class="online__number">5</p>
+            <p class="online__number block">5</p>
             <p class="online__text">Все рекомендации вы получаете дополнительно в&nbsp;текстовом формате — чётко и&nbsp;по&nbsp;пунктам. 
               В&nbsp;рамках консультации, если&nbsp;вы&nbsp;что‑то забыли спросить или&nbsp;сказать —&nbsp;в&nbsp;течение нескольких последующих дней вы 
               можете это сделать по доступному каналу связи.</p>
           </div>
         </div>
-        <img class="online__heart" src="<%=require('./vendor/assets/images/heart.png')%>" />
+        <img class="online__heart" src="<%=require('./vendor/assets/images/heart.png')%>" loading="lazy" />
       </section>
-      <section class="questions">
+      <section class="questions block">
         <h2 class="questions__title">Какие вопросы можно обсудить<br />на онлайн-консультации?</h2>
         <div class="questions__desc">
           <p class="questions__text">Те, которые не требуют очного осмотра.</p>
@@ -119,9 +119,9 @@
           <p class="questions__text">Также&nbsp;можно получить второе мнение, если&nbsp;вы сомневаетесь в&nbsp;назначениях врача.</p>
           <p class="questions__important">Напомню, что&nbsp;онлайн консультация —&nbsp;это&nbsp;информационная, а&nbsp;не&nbsp;медицинская услуга.</p>
         </div>
-        <img class="questions__pills" src="<%=require('./vendor/assets/images/two-pills.png')%>" />
+        <img class="questions__pills" src="<%=require('./vendor/assets/images/two-pills.png')%>" loading="lazy" />
       </section>
-      <section class="price" id="price">
+      <section class="price block" id="price">
         <h2 class="price__title">Прайс на онлайн консультацию:</h2>
         <div class="price__content">
           <div class="price__block">
@@ -195,48 +195,48 @@
           <button class="price__book-button">Записаться на онлайн консультацию</button>
         </a>
       </section>
-      <section class="links" id="links">
+      <section class="links block" id="links">
         <h2 class="links__title">Полезные ссылки</h2>
         <ul class="links__cards">
           <li>
             <a class="links__link-card" href="https://t.me/Doc_alimova">
-              <img class="links__img" src="<%=require('./vendor/assets/icons/consultation.png')%>" alt="Иконка" />
+              <img class="links__img" src="<%=require('./vendor/assets/icons/consultation.png')%>" alt="Иконка" loading="lazy" />
               <p class="links__name">Записаться на&nbsp;консультацию</p>
             </a>
           </li>
           <li>
             <a class="links__link-card" href="https://fomin-clinic.ru/doctors/alimova-oksana-petrovna/">
-              <img class="links__img" src="<%=require('./vendor/assets/icons/fomina.png')%>" alt="Иконка" />
+              <img class="links__img" src="<%=require('./vendor/assets/icons/fomina.png')%>" alt="Иконка" loading="lazy" />
               <p class="links__name">Клиника Фомина</p>
             </a>
           </li>
           <li>
             <a class="links__link-card" href="https://t.me/Doc_alimova">
-              <img class="links__img" src="<%=require('./vendor/assets/icons/plus-icon.png')%>" alt="Иконка" />
+              <img class="links__img" src="<%=require('./vendor/assets/icons/plus-icon.png')%>" alt="Иконка" loading="lazy" />
               <p class="links__name">Развернутый ответ на&nbsp;1&nbsp;вопрос (500&nbsp;руб)</p>
             </a>
           </li>
           <li>
             <a class="links__link-card" href="https://docs.google.com/forms/u/0/d/1Isnx0Xik2NfZEKk6KYO7ZingwGQECUDaaOG9CGs_eq0/viewform?edit_requested=true">
-              <img class="links__img" src="<%=require('./vendor/assets/icons/anketa.png')%>" alt="Иконка" />
+              <img class="links__img" src="<%=require('./vendor/assets/icons/anketa.png')%>" alt="Иконка" loading="lazy" />
               <p class="links__name">Анкета перед&nbsp;консультацией</p>
             </a>
           </li>
           <li>
             <a class="links__link-card" href="https://hellodoc.app/s/b2zqr/">
-              <img class="links__img" src="<%=require('./vendor/assets/icons/analysis.png')%>" alt="Иконка" />
+              <img class="links__img" src="<%=require('./vendor/assets/icons/analysis.png')%>" alt="Иконка" loading="lazy" />
               <p class="links__name">Анализы со&nbsp;скидкой</p>
             </a>
           </li>
           <li>
             <a class="links__link-card" href="https://vk.com/market-211168636">
-              <img class="links__img" src="<%=require('./vendor/assets/icons/tablet.png')%>" alt="Иконка" />
+              <img class="links__img" src="<%=require('./vendor/assets/icons/tablet.png')%>" alt="Иконка" loading="lazy" />
               <p class="links__name">Мои гайды (vk)</p>
             </a>
           </li>
           <li>
             <a class="links__link-card" href="https://checklists.expert/checklist/83565-planirovanie-beremennosti-analizy/iframe">
-              <img class="links__img" src="<%=require('./vendor/assets/icons/dna.png')%>" alt="Иконка" />
+              <img class="links__img" src="<%=require('./vendor/assets/icons/dna.png')%>" alt="Иконка" loading="lazy" />
               <p class="links__name">Подготовка к&nbsp;беременности (чеклист)</p>
             </a>
           </li>
@@ -256,7 +256,7 @@
           <li class="footer__nav-link"><a href="#price">Прайс</a></li>
           <li class="footer__nav-link"><a href="#links">Полезные ссылки</a></li>
         </ul>
-        <img class="footer__background" src="<%=require('./vendor/assets/images/pill-2.png')%>" />
+        <img class="footer__background" src="<%=require('./vendor/assets/images/pill-2.png')%>" loading="lazy" />
         <p class="footer__icon-info">Icons by <a href="https://icons8.com/">icons8</a></p>
         <a href="#header"><img class="footer__arrow-up" src="<%=require('./vendor/assets/icons/arrow-up.png')%>" /></a>
       </nav>
